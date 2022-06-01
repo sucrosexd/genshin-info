@@ -17,70 +17,86 @@ namespace yes
             InitializeComponent();
         }
 
-        private bool button1WasClicked = false;
-        private void button1_Click(object sender, EventArgs e)
-        {
-            button1WasClicked = true;
-            pictureBox1.Load("../../Pictures/Artifacts/Искатель_приключений.png");
-            label1.Text = "2 предмета: Увеличивает макс. HP на 1000 ед.";
-            label2.Text = "4 предмета: В течение 5 сек. после открытия любого \n сундука восстанавливает 30% HP.";
-        }
-
-        private bool button2WasClicked = false;
         private void button2_Click(object sender, EventArgs e)
         {
-            button2WasClicked = true;
-            pictureBox1.Load("../../Pictures/Artifacts/Везунчик.png");
-            label1.Text = "2 предмета: Увеличивает защиту на 100 ед.";
-            label2.Text = "4 предмета: Поднятие монет восстанавливает 300 HP.";
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2061");
         }
-
-        private bool button3WasClicked = false;
         private void button3_Click(object sender, EventArgs e)
         {
-            button3WasClicked = true;
-            pictureBox1.Load("../../Pictures/Artifacts/Целитель.png");
-            label1.Text = "2 предмета: Увеличивает получаемое Лечение на 20%.";
-            label2.Text = "4 предмета: Использование взрыва стихии \n восстанавливает 20% HP.";
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2071");
         }
-
-        private bool button4WasClicked = false;
         private void button4_Click(object sender, EventArgs e)
         {
-            button4WasClicked = true;
-            pictureBox1.Load("../../Pictures/Artifacts/Инструктор.png");
-            label1.Text = "2 предмета: Увеличивает мастерство стихий на 80 ед.";
-            label2.Text = "4 предмета: Вызов элементальной реакции \n увеличивает мастерство стихий \n всех членов отряда на 120 ед. в течение 8 сек.";
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2084");
         }
-
-        private bool button5WasClicked = false;
         private void button5_Click(object sender, EventArgs e)
         {
-            button5WasClicked = true;
-            pictureBox1.Load("../../Pictures/Artifacts/Берсерк.png");
-            label1.Text = "2 предмета: Увеличивает шанс крит. попадания на 12%.";
-            label2.Text = "4 предмета: Увеличивает шанс крит. попадания на 24% \n при HP ниже 70%.";
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2080");
         }
-
-        private bool button6WasClicked = false;
         private void button6_Click(object sender, EventArgs e)
         {
-            button6WasClicked = true;
-            pictureBox1.Load("../../Pictures/Artifacts/Изгнанник.png");
-            label1.Text = "2 предмета: Увеличивает скорость восстановления энергии \n на 20%.";
-            label2.Text = "4 предмета: Использование взрыва стихии \n восстанавливает 2 ед. энергии остальным членам отряда \n (но не выбранному персонажу) \n каждые 2 сек. в течение 6 сек. \n Эффект не может складываться.";
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2073");
+        }
+        private void button7_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2074");
+        }
+        private void button9_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2096");
+        }
+        private void button10_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2069");
+        }
+        private void button11_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2063");
+        }
+        private void button13_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2081");
+        }
+        private void button14_Click(object sender, EventArgs e)
+        {
+            //так, тут ссылка повторяется
+        }
+        private void button15_Click(object sender, EventArgs e)
+        {
+            //тут тоже
+        }
+        private void button17_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2095");
+        }
+        private void button19_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2075");
+        }
+        private void button20_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2077");
+        }
+        private void button21_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2079");
+        }
+        private void button22_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2091");
+        }
+        private void button23_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2062");
+        }
+        private void button24_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://wiki.hoyolab.com/pc/genshin/entry/2085");
         }
 
-        private void label1_Click(object sender, EventArgs e)
+        private void Artifacts_Load(object sender, EventArgs e)
         {
 
-        }
-
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
-        {
-            this.linkLabel1.LinkVisited = true;
-
-            System.Diagnostics.Process.Start("https://genshin-impact.fandom.com/ru/wiki/%D0%90%D1%80%D1%82%D0%B5%D1%84%D0%B0%D0%BA%D1%82%D1%8B#.D0.A2.D0.B0.D0.B1.D0.BB.D0.B8.D1.86.D0.B0_.D0.BE.D0.BF.D1.8B.D1.82.D0.B0_.D0.B0.D1.80.D1.82.D0.B5.D1.84.D0.B0.D0.BA.D1.82.D0.BE.D0.B2");
         }
     }
 }

@@ -29,7 +29,7 @@ namespace yes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Weapons weapons = new Weapons();
+            WeaponsStar weapons = new WeaponsStar();
             weapons.Show();
         }
         private void button2_Click(object sender, EventArgs e)
@@ -78,11 +78,15 @@ namespace yes
 
         }
 
-        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        private void label6_Click(object sender, EventArgs e)
         {
-            this.linkLabel1.LinkVisited = true;
 
-            System.Diagnostics.Process.Start("https://genshin-impact.fandom.com/ru/wiki/Genshin_Impact_%D0%92%D0%B8%D0%BA%D0%B8");
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Info Info = new Info();
+            Info.Show();
         }
     }
 }

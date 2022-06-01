@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Menu));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -44,12 +45,13 @@
             this.button9 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 36.75F);
             this.label1.Location = new System.Drawing.Point(397, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(11, 0, 11, 0);
@@ -61,6 +63,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Comic Sans MS", 24.75F);
             this.label2.Location = new System.Drawing.Point(12, 103);
             this.label2.Name = "label2";
@@ -71,6 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
+            this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Comic Sans MS", 24.75F);
             this.label3.Location = new System.Drawing.Point(241, 103);
             this.label3.Name = "label3";
@@ -81,6 +85,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Comic Sans MS", 18.75F);
             this.label4.Location = new System.Drawing.Point(430, 112);
             this.label4.Name = "label4";
@@ -91,6 +96,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
             this.label5.Font = new System.Drawing.Font("Comic Sans MS", 24.75F);
             this.label5.Location = new System.Drawing.Point(724, 100);
             this.label5.Name = "label5";
@@ -207,46 +213,49 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.Transparent;
             this.label6.Font = new System.Drawing.Font("Comic Sans MS", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label6.Location = new System.Drawing.Point(199, 446);
+            this.label6.Location = new System.Drawing.Point(131, 446);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(567, 26);
+            this.label6.Size = new System.Drawing.Size(681, 26);
             this.label6.TabIndex = 14;
-            this.label6.Text = "Все материалы защищены и пренадлежат компании MiHoYo";
+            this.label6.Text = "Все материалы защищены и пренадлежат компании HoYoverse (MiHoYo)";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
             this.label7.Font = new System.Drawing.Font("Comic Sans MS", 14.75F);
-            this.label7.Location = new System.Drawing.Point(321, 470);
+            this.label7.Location = new System.Drawing.Point(292, 472);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(228, 28);
+            this.label7.Size = new System.Drawing.Size(329, 28);
             this.label7.TabIndex = 15;
-            this.label7.Text = "Вся информация взята";
+            this.label7.Text = "Все источники в разделе \"Инфо\"";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // linkLabel1
+            // button10
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.Cursor = System.Windows.Forms.Cursors.Help;
-            this.linkLabel1.Font = new System.Drawing.Font("Comic Sans MS", 14.25F);
-            this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(545, 472);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(80, 26);
-            this.linkLabel1.TabIndex = 16;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "отсюда";
-            this.linkLabel1.VisitedLinkColor = System.Drawing.Color.White;
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            this.button10.BackColor = System.Drawing.Color.Black;
+            this.button10.Font = new System.Drawing.Font("Comic Sans MS", 12F);
+            this.button10.ForeColor = System.Drawing.Color.White;
+            this.button10.Location = new System.Drawing.Point(868, 12);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 30);
+            this.button10.TabIndex = 17;
+            this.button10.Text = "Инфо";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(22F, 52F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(955, 507);
-            this.Controls.Add(this.linkLabel1);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(955, 511);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.button9);
@@ -263,8 +272,10 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Comic Sans MS", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.ForeColor = System.Drawing.Color.White;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(11, 12, 11, 12);
             this.MaximumSize = new System.Drawing.Size(971, 546);
             this.MinimumSize = new System.Drawing.Size(971, 546);
@@ -295,7 +306,7 @@
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button button10;
     }
 }
 
