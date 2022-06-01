@@ -31,64 +31,64 @@ namespace yes
         private void button1_Click(object sender, EventArgs e)
         {
             button1WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Тупой_меч.png");
-            pictureBox2.Load("../../Pictures/Weapons/Тупой_меч_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Тупой_меч.png");
+            pictureBox2.Load("Pictures/Weapons/Тупой_меч_Возв.png");
         }
 
         private bool button2WasClicked = false;
         private void button2_Click(object sender, EventArgs e)
         {
             button2WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Двуручный_меч_богатыря.png");
-            pictureBox2.Load("../../Pictures/Weapons/Двуручный_меч_богатыря_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Двуручный_меч_богатыря.png");
+            pictureBox2.Load("Pictures/Weapons/Двуручный_меч_богатыря_Возв.png");
         }
 
         private bool button3WasClicked = false;
         private void button3_Click(object sender, EventArgs e)
         {
             button3WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Записи_ученика.png");
-            pictureBox2.Load("../../Pictures/Weapons/Записи_ученика_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Записи_ученика.png");
+            pictureBox2.Load("Pictures/Weapons/Записи_ученика_Возв.png");
         }
 
         private bool button4WasClicked = false;
         private void button4_Click(object sender, EventArgs e)
         {
             button4WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Лук_охотника.png");
-            pictureBox2.Load("../../Pictures/Weapons/Лук_охотника_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Лук_охотника.png");
+            pictureBox2.Load("Pictures/Weapons/Лук_охотника_Возв.png");
         }
 
         private bool button5WasClicked = false;
         private void button5_Click(object sender, EventArgs e)
         {
             button5WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Копье_новичка.png");
-            pictureBox2.Load("../../Pictures/Weapons/Копьё_новичка_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Копье_новичка.png");
+            pictureBox2.Load("Pictures/Weapons/Копьё_новичка_Возв.png");
         }
 
         private bool button6WasClicked = false;
         private void button6_Click(object sender, EventArgs e)
         {
             button6WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Лучший_друг_наёмника.png");
-            pictureBox2.Load("../../Pictures/Weapons/Лучший_друг_наёмника_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Лучший_друг_наёмника.png");
+            pictureBox2.Load("Pictures/Weapons/Лучший_друг_наёмника_Возв.png");
         }
 
         private bool button7WasClicked = false;
         private void button7_Click(object sender, EventArgs e)
         {
             button7WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Лук_опытного_охотника.png");
-            pictureBox2.Load("../../Pictures/Weapons/Лук_опытного_охотника_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Лук_опытного_охотника.png");
+            pictureBox2.Load("Pictures/Weapons/Лук_опытного_охотника_Возв.png");
         }
 
         private bool button8WasClicked = false;
         private void button8_Click(object sender, EventArgs e)
         {
             button8WasClicked = true;
-            pictureBox1.Load("../../Pictures/Weapons/Карманный_гримуар.png");
-            pictureBox2.Load("../../Pictures/Weapons/Карманный_гримуар_Возв.png");
+            pictureBox1.Load("Pictures/Weapons/Карманный_гримуар.png");
+            pictureBox2.Load("Pictures/Weapons/Карманный_гримуар_Возв.png");
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
